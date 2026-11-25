@@ -1,0 +1,38 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# py2app build output
+dist/
+
+# Runtime data (databases, tickets, exports, backups, logs)
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+qr_codes/
+exports/
+backups/
+logs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
